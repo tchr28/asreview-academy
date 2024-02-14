@@ -263,8 +263,7 @@ that is used after model initialization. The `--init_seed` command
 controls the random set of papers to train the model on.
 
 ``` bash
-asreview simulate data/[name_of_your_data.csv] --state_file output/[results_name].asreview 
---seed [your favorite number] --init_seed [your second favorite number]
+asreview simulate data/[name_of_your_data.csv] --state_file output/[results_name].asreview --seed [your favorite number] --init_seed [your second favorite number]
 ```
 
 Save this script in the `jobs.txt` file you just made, to keep track of
